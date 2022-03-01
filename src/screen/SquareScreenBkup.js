@@ -6,7 +6,7 @@ import ColorCounter from "../components/ColorCounter";
 const COLOR_INCREMENT = 15; 
 
 
-const SquareScreen =() =>{
+const SquareScreenBkup =() =>{
   const [red,setRed] = useState(0);
   const [green,setGreen] = useState(0);
   const [blue,setBlue] = useState(0);
@@ -68,4 +68,4 @@ const SquareScreen =() =>{
 
 const style = StyleSheet.create({});
 
-export default SquareScreen;
+export default SquareScreenBkup;
