@@ -28,6 +28,18 @@ const HomeScreen = ({navigation}) => {
         title='Go to Login'
         onPress={() => navigation.navigate('Login')}
       />
+      <Button 
+        title='Go to State Hook'
+        onPress={() => navigation.navigate('StateHook')}
+      />
+      <Button 
+        title='Go to Effect Hook'
+        onPress={() => navigation.navigate('EffectHook')}
+      />
+      <Button 
+        title='Go to Context Hook'
+        onPress={() => navigation.navigate('ContextHook')}
+      />
       <Text></Text>
     </View>
   );
@@ -37,3 +49,5 @@ const styles = StyleSheet.create({
 });
 
 export default HomeScreen;
+
+

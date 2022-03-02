@@ -9,6 +9,10 @@ import ColorScreen from "./src/screen/ColorScreen";
 import SquareScreen from "./src/screen/SquareScreen";
 import SquareScreenBkup from "./src/screen/SquareScreenBkup";
 import LoginScreen from "./src/screen/LoginScreen/LoginScreen";
+import StateHookScreen from "./src/screen/HookScreen/StateHookScreen";
+import EffectHookScreen from "./src/screen/HookScreen/EffectHookScreen";
+import ContextHookScreen from "./src/screen/HookScreen/ContextHookScreen";
+
 
 const navigator = createStackNavigator(
   {
@@ -18,6 +22,9 @@ const navigator = createStackNavigator(
     Counter: CounterScreen,
     SquareBkup: SquareScreenBkup,
     Login: LoginScreen,
+    StateHook: StateHookScreen,
+    EffectHook: EffectHookScreen,
+    ContextHook: ContextHookScreen,
   },
   {
     initialRouteName: 'Home',
