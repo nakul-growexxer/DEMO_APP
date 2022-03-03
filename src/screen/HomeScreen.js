@@ -24,11 +24,16 @@ const HomeScreen = ({navigation}) => {
         title='Go to Counter'
         onPress={() => navigation.navigate('Counter')}
       />
+      <Button 
+        title='Go to Login'
+        onPress={() => navigation.navigate('Login')}
+      />
       <Text></Text>
     </View>
   );
 };
 
-const style = StyleSheet.create({});
+const styles = StyleSheet.create({
+});
 
 export default HomeScreen;
