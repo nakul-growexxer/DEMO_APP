@@ -14,8 +14,11 @@ const CounterScreen = () => {
       />
       <Button title='subtract' onPress={() => {
         //flag--;
+        if(flag>0){ 
         setFlag(flag - 1);
+
         console.log(flag);
+      }
         }}
       />
       <Text>
